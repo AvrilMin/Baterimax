@@ -1,27 +1,21 @@
 @import "tailwindcss";
 
-html {
-  height: 100%; /* Asegura que html tenga altura completa */
-}
 
-body {
-  min-height: 100%;
-background: linear-gradient(135deg, #0a0a0a 0%, #1c1c1c 30%, #222222 70%, #0a0a0a 100%);
-
-  background-repeat: no-repeat; /* Evita que el fondo se repita */
-  background-attachment: fixed;  /* Mantiene el fondo fijo incluso cuando haces scroll */
-  background-size: cover;        /* Asegura que cubra toda la pantalla */
-  margin: 0;
-  padding: 0px 80px 0px 80px;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
+html, body {
+	overflow-x: hidden;
+  	height: 100%;
+	background-color:rgb(27, 27, 27);
+  	margin: 0;
+  	padding: 0px 0px 0px 0px;
+ 	color: white;
+  	font-family: Arial, Helvetica, sans-serif;
 }
 
 html {
-  scroll-behavior: smooth;
+  	scroll-behavior: smooth;
 }
 
 #products {
-  padding-top: 6rem; /* O lo que mida tu navbar */
+  	padding-top: 6rem; 
 }
 

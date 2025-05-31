@@ -1,4 +1,5 @@
-import React, { useEffect, useState, useMemo } from 'react';
+import React, { useEffect, useState, useMemo} from 'react';
+import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 // Hook para debounce sencillo
@@ -12,6 +13,7 @@ function useDebounce(value, delay) {
 }
 
 const Productos = () => {
+	const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = useState('');
   const [productos, setProductos] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -61,10 +63,11 @@ const Productos = () => {
   }, [productos, categoriaFiltro, searchQuery]);
 
   	return (
-    <section id="products" className="min-h-screen text-white p-8">
+		
+    <section id="products" className="text-white mx-4 md:px-10 lg:px-40">
       	{/* Título con animación */}
 	    <motion.h2
-	        className="text-4xl font-bold mb-10 text-center"
+	        className="text-3xl font-bold mb-10 text-center"
 	        initial={{ opacity: 0, y: -80 }}
 	        whileInView={{ opacity: 1, y: 0 }}
 	        viewport={{ once: true, amount: 0.9 }}
@@ -74,25 +77,25 @@ const Productos = () => {
 	    </motion.h2>
 
       	{/* Barra de búsqueda */}
-      	<div className="flex flex-col md:flex-row justify-between gap-4 mb-14">
-	        <div className="flex flex-grow justify-center gap-4">
-	          <input
-	            type="text"
-	            placeholder="Buscar productos..."
-	            value={searchQuery}
-	            onChange={e => setSearchQuery(e.target.value)}
-	            className="border border-gray-500 bg-black bg-opacity-50 text-white rounded-lg px-4 py-2 w-full max-w-2xl focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-yellow-400 transition-all"
-	          />
-	        </div>
-      	</div>
+
+	   	<div className="flex justify-center mb-14 w-full ">
+		  <input
+		    type="text"
+		    placeholder="Buscar productos..."
+		    value={searchQuery}
+		    onChange={e => setSearchQuery(e.target.value)}
+		    className="relative z-50 border border-gray-500 bg-black bg-opacity-50 text-white rounded-lg px-4 py-2 w-full max-w-2xl focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-yellow-400 transition-all z-0"
+		  />
+		</div>
+
 
       	{/* Botones de categorías */}
-      	<div className="flex flex-wrap gap-4 mb-6">
+      	<div className="flex flex-wrap gap-x-4 gap-y-1 mb-6">
 	        {categorias.map(categoria => (
 	          <button
 	            key={categoria}
 	            onClick={() => setInputFiltroCategoria(categoria)}
-	            className={`px-4 py-2 rounded-lg cursor-pointer border border-yellow-400 transition-colors duration-200 ${
+	            className={`px-4 py-2 my-3 rounded-lg cursor-pointer border border-yellow-400 transition-colors duration-200 ${
 				  categoriaFiltro === categoria
 				    ? 'bg-yellow-400 text-black font-bold'   // <-- fondo amarillo PERMANENTE cuando está activo
 				    : 'bg-transparent text-white hover:bg-yellow-500 font-bold'  // <-- para inactivo
@@ -109,13 +112,12 @@ const Productos = () => {
 	  <p>Cargando productos...</p>
 	) : productosFiltrados.length > 0 ? (
 	  	<div
-	    	className="grid gap-8 justify-center"
-	    	style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))' }}
+	    	className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-center"
 	  	>
 	    	{productosFiltrados.map(p => (
 	            <div
 	                key={p.id}
-	                className="bg-black bg-opacity-70 p-4 rounded shadow-lg p-4"
+	                className="bg-black bg-opacity-70 p-4 rounded-[10px] shadow-lg p-5"
 	            >
 		           	<img
 		                src={p.image}
@@ -124,8 +126,8 @@ const Productos = () => {
 		                className="w-full h-60 object-cover rounded mb-4"
 		            />
 		                <h3 className="text-xl font-bold">{p.name}</h3>
-		                <p className="text-sm text-gray-400">{p.category}</p>
-		                <button className="mt-2 px-4 py-1 bg-yellow-400 text-white rounded hover:bg-yellow-500 cursor-pointer">
+		                <p className="text-sm text-gray-400 my-2">{p.category}</p>
+		                <button className="mt-2 px-4 py-1 bg-yellow-400 text-black font-semibold rounded hover:bg-yellow-500 cursor-pointer" onClick={() => navigate(`/producto/${p.id}`)}>
 		                  	Ver más
 		                </button>
 	              	</div>

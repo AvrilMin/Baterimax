@@ -1,33 +1,219 @@
 [
-  { "id": 1, "name": "Batería MaxxPower 12V", "category": "Baterías", "image": "/assets/fotoBattery.jpg" },
-  { "id": 2, "name": "Batería EcoEnergy Pro 24V", "category": "Baterías", "image": "/assets/fotoBattery2.avif" },
-  { "id": 3, "name": "Cargador UltraFast 20A", "category": "Cargadores", "image": "/assets/fotoBattery.jpg" },
-  { "id": 4, "name": "Cargador Solar Smart", "category": "Cargadores", "image": "/assets/fotoBattery2.avif" },
-  { "id": 5, "name": "Accesorio Cable Premium", "category": "Accesorios", "image": "/assets/fotoBattery.jpg" },
-  { "id": 7, "name": "Batería Compact 7Ah", "category": "Baterías", "image": "/assets/fotoBattery.jpg" },
-  { "id": 8, "name": "Cargador Portátil 15A", "category": "Cargadores", "image": "/assets/fotoBattery2.avif" },
-  { "id": 9, "name": "Accesorio Soporte Panel", "category": "Accesorios", "image": "/assets/fotoBattery.jpg" },
-  { "id": 11, "name": "Batería Industrial HeavyDuty", "category": "Baterías", "image": "/assets/fotoBattery.jpg" },
-  { "id": 12, "name": "Cargador Inteligente 25A", "category": "Cargadores", "image": "/assets/fotoBattery2.avif" },
-  { "id": 13, "name": "Accesorio Conectores Pro", "category": "Accesorios", "image": "/assets/fotoBattery.jpg" },
-  { "id": 15, "name": "Batería Slim Fit 12V", "category": "Baterías", "image": "/assets/fotoBattery.jpg" },
-  { "id": 16, "name": "Cargador UltraCompact", "category": "Cargadores", "image": "/assets/fotoBattery2.avif" },
-  { "id": 17, "name": "Accesorio Base Magnética", "category": "Accesorios", "image": "/assets/fotoBattery.jpg" },
-  { "id": 19, "name": "Batería PowerPack 36Ah", "category": "Baterías", "image": "/assets/fotoBattery.jpg" },
-  { "id": 20, "name": "Cargador Solar Pro 30A", "category": "Cargadores", "image": "/assets/fotoBattery2.avif" },
-  { "id": 21, "name": "Accesorio Fusibles Alta", "category": "Accesorios", "image": "/assets/fotoBattery.jpg" },
-  { "id": 23, "name": "Batería EcoPlus 18Ah", "category": "Baterías", "image": "/assets/fotoBattery.jpg" },
-  { "id": 24, "name": "Cargador Dual Input", "category": "Cargadores", "image": "/assets/fotoBattery2.avif" },
-  { "id": 25, "name": "Accesorio Cableado Solar", "category": "Accesorios", "image": "/assets/fotoBattery.jpg" },
-  { "id": 27, "name": "Batería TruckMaster 180Ah", "category": "Baterías", "image": "/assets/fotoBattery.jpg" },
-  { "id": 28, "name": "Cargador HighPower 50A", "category": "Cargadores", "image": "/assets/fotoBattery2.avif" },
-  { "id": 29, "name": "Accesorio Interruptor Carga", "category": "Accesorios", "image": "/assets/fotoBattery.jpg" },
-  { "id": 31, "name": "Batería MotoEnergy 8Ah", "category": "Baterías", "image": "/assets/fotoBattery.jpg" },
-  { "id": 32, "name": "Cargador UltraRapido 60A", "category": "Cargadores", "image": "/assets/fotoBattery2.avif" },
-  { "id": 33, "name": "Accesorio Monitor Voltaje", "category": "Accesorios", "image": "/assets/fotoBattery.jpg" },
-  { "id": 35, "name": "Batería Lithium Pro 48V", "category": "Baterías", "image": "/assets/fotoBattery.jpg" },
-  { "id": 36, "name": "Cargador Rápido EV", "category": "Cargadores", "image": "/assets/fotoBattery2.avif" },
-  { "id": 37, "name": "Accesorio Controlador Solar", "category": "Accesorios", "image": "/assets/fotoBattery.jpg" },
-  { "id": 39, "name": "Batería Compact AGM", "category": "Baterías", "image": "/assets/fotoBattery.jpg" },
-  { "id": 40, "name": "Cargador Profesional 80A", "category": "Cargadores", "image": "/assets/fotoBattery2.avif" }
+  {
+    "id": 1,
+    "name": "Batería MaxxPower 12V",
+    "category": "Baterías",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Batería 12V, 60Ah. Ideal para vehículos medianos y sistemas de respaldo. Dimensiones aproximadas: 24x17x19 cm. Tecnología AGM, libre de mantenimiento, alta resistencia a vibraciones."
+  },
+  {
+    "id": 2,
+    "name": "Batería EcoEnergy Pro 24V",
+    "category": "Baterías",
+    "image": "/assets/fotoBattery2.avif",
+    "description": "Batería 24V, 80Ah. Perfecta para aplicaciones eléctricas y solares. Dimensiones: 35x18x22 cm. Tecnología de gel sellado para mayor durabilidad y ciclos profundos."
+  },
+  {
+    "id": 3,
+    "name": "Cargador UltraFast 20A",
+    "category": "Cargadores",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Cargador rápido 20A compatible con baterías de plomo-ácido y AGM. Voltaje de entrada 110-240V. Protección contra sobrecarga y corto circuito. Tamaño compacto: 20x12x8 cm."
+  },
+  {
+    "id": 4,
+    "name": "Cargador Solar Smart",
+    "category": "Cargadores",
+    "image": "/assets/fotoBattery2.avif",
+    "description": "Cargador solar inteligente 15A con controlador MPPT. Compatible con paneles solares hasta 200W. Dimensiones: 28x15x9 cm. Resistente al agua y polvo, IP65."
+  },
+  {
+    "id": 5,
+    "name": "Accesorio Cable Premium",
+    "category": "Accesorios",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Cable conductor de cobre puro, 2 metros. Aislante resistente a altas temperaturas. Compatible con conexiones para baterías y sistemas solares."
+  },
+  {
+    "id": 7,
+    "name": "Batería Compact 7Ah",
+    "category": "Baterías",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Batería compacta 12V, 7Ah. Ideal para sistemas pequeños y vehículos ligeros. Tamaño: 15x7x9 cm. Tecnología AGM, mantenimiento cero."
+  },
+  {
+    "id": 8,
+    "name": "Cargador Portátil 15A",
+    "category": "Cargadores",
+    "image": "/assets/fotoBattery2.avif",
+    "description": "Cargador portátil 15A para baterías de 12V. Voltaje universal 110-240V. Ligero y fácil de transportar. Tamaño compacto: 18x10x7 cm."
+  },
+  {
+    "id": 9,
+    "name": "Accesorio Soporte Panel",
+    "category": "Accesorios",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Soporte ajustable para paneles solares. Fabricado en aluminio resistente a la corrosión. Fácil instalación y ajuste de ángulo para máxima captación solar."
+  },
+  {
+    "id": 11,
+    "name": "Batería Industrial HeavyDuty",
+    "category": "Baterías",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Batería industrial 12V, 150Ah. Diseñada para uso intensivo y larga duración. Dimensiones: 48x27x22 cm. Tecnología AGM con alta resistencia a ciclos profundos."
+  },
+  {
+    "id": 12,
+    "name": "Cargador Inteligente 25A",
+    "category": "Cargadores",
+    "image": "/assets/fotoBattery2.avif",
+    "description": "Cargador inteligente 25A con modos de carga para diferentes baterías. Protección contra sobrecarga, polaridad inversa y corto circuito. Dimensiones: 30x15x10 cm."
+  },
+  {
+    "id": 13,
+    "name": "Accesorio Conectores Pro",
+    "category": "Accesorios",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Set de conectores profesionales para baterías y sistemas eléctricos. Material resistente y conductivo. Incluye terminales y funda aislante."
+  },
+  {
+    "id": 15,
+    "name": "Batería Slim Fit 12V",
+    "category": "Baterías",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Batería slim 12V, 45Ah, diseño compacto para espacios reducidos. Dimensiones: 20x15x18 cm. Tecnología AGM sin mantenimiento."
+  },
+  {
+    "id": 16,
+    "name": "Cargador UltraCompact",
+    "category": "Cargadores",
+    "image": "/assets/fotoBattery2.avif",
+    "description": "Cargador ultra compacto 10A, ideal para uso doméstico. Voltaje 110-240V. Tamaño mini: 15x8x5 cm. Fácil transporte y almacenamiento."
+  },
+  {
+    "id": 17,
+    "name": "Accesorio Base Magnética",
+    "category": "Accesorios",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Base magnética para fijación rápida y segura de equipos eléctricos. Material resistente con imanes potentes."
+  },
+  {
+    "id": 19,
+    "name": "Batería PowerPack 36Ah",
+    "category": "Baterías",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Batería 12V, 36Ah para uso en vehículos y sistemas UPS. Dimensiones: 25x17x18 cm. Tecnología AGM con alto rendimiento y duración."
+  },
+  {
+    "id": 20,
+    "name": "Cargador Solar Pro 30A",
+    "category": "Cargadores",
+    "image": "/assets/fotoBattery2.avif",
+    "description": "Controlador solar profesional 30A con función MPPT. Compatible con paneles solares hasta 400W. Dimensiones: 35x20x10 cm. Protección IP65."
+  },
+  {
+    "id": 21,
+    "name": "Accesorio Fusibles Alta",
+    "category": "Accesorios",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Fusibles de alta calidad para protección eléctrica. Capacidad de corriente variable. Material duradero y seguro."
+  },
+  {
+    "id": 23,
+    "name": "Batería EcoPlus 18Ah",
+    "category": "Baterías",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Batería 12V, 18Ah para aplicaciones pequeñas y medianas. Dimensiones: 20x12x15 cm. Tecnología AGM sin mantenimiento."
+  },
+  {
+    "id": 24,
+    "name": "Cargador Dual Input",
+    "category": "Cargadores",
+    "image": "/assets/fotoBattery2.avif",
+    "description": "Cargador con doble entrada para corriente alterna y solar. Salida 20A. Dimensiones: 30x15x10 cm. Compatible con baterías AGM y gel."
+  },
+  {
+    "id": 25,
+    "name": "Accesorio Cableado Solar",
+    "category": "Accesorios",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Kit de cableado solar con conectores MC4. Cables de alta resistencia para exteriores. Longitud total 5 metros."
+  },
+  {
+    "id": 27,
+    "name": "Batería TruckMaster 180Ah",
+    "category": "Baterías",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Batería 12V, 180Ah para vehículos pesados y maquinaria. Dimensiones: 55x24x22 cm. Alta durabilidad y tecnología AGM."
+  },
+  {
+    "id": 28,
+    "name": "Cargador HighPower 50A",
+    "category": "Cargadores",
+    "image": "/assets/fotoBattery2.avif",
+    "description": "Cargador de alta potencia 50A para baterías industriales. Voltaje 110-240V. Dimensiones: 40x25x15 cm. Protección avanzada contra sobrecargas."
+  },
+  {
+    "id": 29,
+    "name": "Accesorio Interruptor Carga",
+    "category": "Accesorios",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Interruptor de carga para sistemas eléctricos. Fácil instalación y manejo. Capacidad hasta 60A."
+  },
+  {
+    "id": 31,
+    "name": "Batería MotoEnergy 8Ah",
+    "category": "Baterías",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Batería compacta 12V, 8Ah para motocicletas. Dimensiones: 15x7x10 cm. Tecnología AGM libre de mantenimiento."
+  },
+  {
+    "id": 32,
+    "name": "Cargador UltraRapido 60A",
+    "category": "Cargadores",
+    "image": "/assets/fotoBattery2.avif",
+    "description": "Cargador ultra rápido 60A para baterías industriales y vehículos eléctricos. Entrada 110-240V. Dimensiones: 45x30x20 cm."
+  },
+  {
+    "id": 33,
+    "name": "Accesorio Monitor Voltaje",
+    "category": "Accesorios",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Monitor digital de voltaje para baterías. Pantalla LCD, alarma de bajo voltaje. Fácil instalación y conexión."
+  },
+  {
+    "id": 35,
+    "name": "Batería Lithium Pro 48V",
+    "category": "Baterías",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Batería de litio 48V, 100Ah. Alta densidad energética y ciclo de vida prolongado. Dimensiones: 40x20x25 cm. Ideal para vehículos eléctricos."
+  },
+  {
+    "id": 36,
+    "name": "Cargador Rápido EV",
+    "category": "Cargadores",
+    "image": "/assets/fotoBattery2.avif",
+    "description": "Cargador rápido para vehículos eléctricos. Potencia hasta 50kW. Diseño compacto y eficiente. Compatible con estándar CCS y CHAdeMO."
+  },
+  {
+    "id": 37,
+    "name": "Accesorio Controlador Solar",
+    "category": "Accesorios",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Controlador solar PWM para paneles fotovoltaicos. Protección contra sobrecarga y cortocircuito. Fácil montaje y configuración."
+  },
+  {
+    "id": 39,
+    "name": "Batería Compact AGM",
+    "category": "Baterías",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Batería AGM compacta 12V, 45Ah. Alta resistencia y libre mantenimiento. Dimensiones: 20x15x18 cm."
+  },
+  {
+    "id": 40,
+    "name": "Cargador Profesional 80A",
+    "category": "Cargadores",
+    "image": "/assets/fotoBattery2.avif",
+    "description": "Cargador profesional 80A para baterías industriales. Voltaje de entrada 110-240V. Dimensiones: 50x30x20 cm. Protección avanzada y sistema de enfriamiento."
+  }
 ]

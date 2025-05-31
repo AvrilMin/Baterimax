@@ -11,7 +11,7 @@ const NavBar = () => {
 
   return (
     <nav
-      className="fixed top-0 left-0 w-full backdrop-blur-md bg-transparent p-4 md:p-6 z-50 shadow-md"
+      className="fixed top-0 left-0 w-full backdrop-blur-md bg-transparent p-4 md:p-6 z-80 shadow-md"
       aria-label="Main navigation"
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
