@@ -13,7 +13,7 @@ const Contactame = () => {
       className="bg-black/20 text-white p-6 sm:p-10 md:p-16 mx-4 sm:mx-10 md:mx-40 my-10 rounded-lg"
     >
       <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-center md:text-left">
-        Contáctame
+        Contacto
       </h2>
       <p className="max-w-md mx-auto md:mx-0 mb-8 text-center md:text-left text-base sm:text-lg text-gray-300">
         ¿Tienes dudas o quieres hacer un pedido? Escríbenos por WhatsApp o visita nuestra página de Facebook.

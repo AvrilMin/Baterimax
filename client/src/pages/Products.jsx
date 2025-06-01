@@ -67,7 +67,7 @@ const Productos = () => {
     <section id="products" className="text-white mx-4 md:px-10 lg:px-40">
       	{/* Título con animación */}
 	    <motion.h2
-	        className="text-3xl font-bold mb-10 text-center"
+	        className="text-3xl lg:text-5xl font-bold mb-10 text-center"
 	        initial={{ opacity: 0, y: -80 }}
 	        whileInView={{ opacity: 1, y: 0 }}
 	        viewport={{ once: true, amount: 0.9 }}

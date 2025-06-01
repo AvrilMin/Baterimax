@@ -5,8 +5,8 @@ const NavBar = () => {
 
   const navItems = [
     { href: '#home', label: 'Home' },
-    { href: '#products', label: 'Products' },
-    { href: '#contact', label: 'Contact' },
+    { href: '#products', label: 'Productos' },
+    { href: '#contact', label: 'Contacto' },
   ];
 
   return (

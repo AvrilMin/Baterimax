@@ -16,7 +16,7 @@ function ModeloBateria() {
 
 export default function Bateria3D() {
   	return (
-		<div className="w-100 h-300 sm:w-300 sm:h-300 md:w-[1200px] md:h-[1200px] bg-transparent">
+		<div className="w-100 h-300 sm:w-300 sm:h-300 md:w-[1000px] md:h-[1000px] lg:w-[1500px] lg:h-[1500px] bg-transparent">
 		    <Canvas style={{ height: '100%', width: '100%'}}>
 			  <ambientLight intensity={3} /> {/* Aumenta la luz ambiental */}
 			  <ModeloBateria />

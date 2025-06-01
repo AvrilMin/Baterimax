@@ -27,7 +27,7 @@ const VerProducto = () => {
       {/* Botón Volver solo visible en md+ */}
       <button
         onClick={() => navigate(-1)}
-        className="hidden md:flex fixed top-4 left-4 bg-yellow-400 px-4 py-2 rounded-md shadow-lg text-black font-semibold hover:bg-yellow-500 transition cursor-pointer z-50"
+        className="hidden md:flex fixed top-50 left-120 bg-yellow-400 px-4 py-2 rounded-md shadow-lg text-black font-semibold hover:bg-yellow-500 transition cursor-pointer z-50"
         aria-label="Volver"
       >
         ← Volver
