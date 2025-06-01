@@ -7,7 +7,7 @@ import VerProducto from './pages/VerProducto';
 import IconWhatsapp from './components/IconWhatsapp';
 
 function MainPage() {
-  // Aquí pones todo lo que quieres en la página principal con scroll
+  // Páginas con scroll
   return (
     <>
       <Home />
@@ -18,17 +18,16 @@ function MainPage() {
 }
 
 function App() {
-  return (
-    <>
-      <NavBar />
-      <IconWhatsapp />
-      <Routes>
-        <Route path="/" element={<MainPage />} />
-        <Route path="/producto/:id" element={<VerProducto />} />
-        {/* otras rutas si hay */}
-      </Routes>
-    </>
-  );
+  	return (
+	    <>
+	      	<NavBar />
+	      	<IconWhatsapp />
+	      	<Routes>
+	        	<Route path="/" element={<MainPage />} />
+	        	<Route path="/producto/:id" element={<VerProducto />} />
+	      	</Routes>
+	    </>
+  	);
 }
 
 export default App;

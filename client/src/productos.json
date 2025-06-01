@@ -1,0 +1,250 @@
+[
+  {
+    "id": 1,
+    "name": "Batería MaxxPower 12V",
+    "category": "Baterías",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Batería 12V, 60Ah...",
+    "price": 320.00
+  },
+  {
+    "id": 2,
+    "name": "Batería EcoEnergy Pro 24V",
+    "category": "Baterías",
+    "image": "/assets/fotoBattery2.avif",
+    "description": "Batería 24V, 80Ah...",
+    "price": 460.00
+  },
+  {
+    "id": 3,
+    "name": "Cargador UltraFast 20A",
+    "category": "Cargadores",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Cargador rápido 20A...",
+    "price": 180.00
+  },
+  {
+    "id": 4,
+    "name": "Cargador Solar Smart",
+    "category": "Cargadores",
+    "image": "/assets/fotoBattery2.avif",
+    "description": "Cargador solar inteligente 15A...",
+    "price": 250.00
+  },
+  {
+    "id": 5,
+    "name": "Accesorio Cable Premium",
+    "category": "Accesorios",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Cable conductor de cobre puro...",
+    "price": 35.00
+  },
+  {
+    "id": 7,
+    "name": "Batería Compact 7Ah",
+    "category": "Baterías",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Batería compacta 12V, 7Ah...",
+    "price": 120.00
+  },
+  {
+    "id": 8,
+    "name": "Cargador Portátil 15A",
+    "category": "Cargadores",
+    "image": "/assets/fotoBattery2.avif",
+    "description": "Cargador portátil 15A...",
+    "price": 165.00
+  },
+  {
+    "id": 9,
+    "name": "Accesorio Soporte Panel",
+    "category": "Accesorios",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Soporte ajustable para paneles...",
+    "price": 85.00
+  },
+  {
+    "id": 11,
+    "name": "Batería Industrial HeavyDuty",
+    "category": "Baterías",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Batería industrial 12V, 150Ah...",
+    "price": 680.00
+  },
+  {
+    "id": 12,
+    "name": "Cargador Inteligente 25A",
+    "category": "Cargadores",
+    "image": "/assets/fotoBattery2.avif",
+    "description": "Cargador inteligente 25A...",
+    "price": 210.00
+  },
+  {
+    "id": 13,
+    "name": "Accesorio Conectores Pro",
+    "category": "Accesorios",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Set de conectores profesionales...",
+    "price": 48.00
+  },
+  {
+    "id": 15,
+    "name": "Batería Slim Fit 12V",
+    "category": "Baterías",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Batería slim 12V, 45Ah...",
+    "price": 275.00
+  },
+  {
+    "id": 16,
+    "name": "Cargador UltraCompact",
+    "category": "Cargadores",
+    "image": "/assets/fotoBattery2.avif",
+    "description": "Cargador ultra compacto 10A...",
+    "price": 140.00
+  },
+  {
+    "id": 17,
+    "name": "Accesorio Base Magnética",
+    "category": "Accesorios",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Base magnética para fijación...",
+    "price": 60.00
+  },
+  {
+    "id": 19,
+    "name": "Batería PowerPack 36Ah",
+    "category": "Baterías",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Batería 12V, 36Ah...",
+    "price": 240.00
+  },
+  {
+    "id": 20,
+    "name": "Cargador Solar Pro 30A",
+    "category": "Cargadores",
+    "image": "/assets/fotoBattery2.avif",
+    "description": "Controlador solar profesional 30A...",
+    "price": 310.00
+  },
+  {
+    "id": 21,
+    "name": "Accesorio Fusibles Alta",
+    "category": "Accesorios",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Fusibles de alta calidad...",
+    "price": 22.00
+  },
+  {
+    "id": 23,
+    "name": "Batería EcoPlus 18Ah",
+    "category": "Baterías",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Batería 12V, 18Ah...",
+    "price": 190.00
+  },
+  {
+    "id": 24,
+    "name": "Cargador Dual Input",
+    "category": "Cargadores",
+    "image": "/assets/fotoBattery2.avif",
+    "description": "Cargador con doble entrada...",
+    "price": 225.00
+  },
+  {
+    "id": 25,
+    "name": "Accesorio Cableado Solar",
+    "category": "Accesorios",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Kit de cableado solar...",
+    "price": 65.00
+  },
+  {
+    "id": 27,
+    "name": "Batería TruckMaster 180Ah",
+    "category": "Baterías",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Batería 12V, 180Ah...",
+    "price": 740.00
+  },
+  {
+    "id": 28,
+    "name": "Cargador HighPower 50A",
+    "category": "Cargadores",
+    "image": "/assets/fotoBattery2.avif",
+    "description": "Cargador de alta potencia 50A...",
+    "price": 350.00
+  },
+  {
+    "id": 29,
+    "name": "Accesorio Interruptor Carga",
+    "category": "Accesorios",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Interruptor de carga para sistemas eléctricos...",
+    "price": 45.00
+  },
+  {
+    "id": 31,
+    "name": "Batería MotoEnergy 8Ah",
+    "category": "Baterías",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Batería compacta 12V, 8Ah...",
+    "price": 135.00
+  },
+  {
+    "id": 32,
+    "name": "Cargador UltraRapido 60A",
+    "category": "Cargadores",
+    "image": "/assets/fotoBattery2.avif",
+    "description": "Cargador ultra rápido 60A...",
+    "price": 480.00
+  },
+  {
+    "id": 33,
+    "name": "Accesorio Monitor Voltaje",
+    "category": "Accesorios",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Monitor digital de voltaje...",
+    "price": 90.00
+  },
+  {
+    "id": 35,
+    "name": "Batería Lithium Pro 48V",
+    "category": "Baterías",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Batería de litio 48V, 100Ah...",
+    "price": 1200.00
+  },
+  {
+    "id": 36,
+    "name": "Cargador Rápido EV",
+    "category": "Cargadores",
+    "image": "/assets/fotoBattery2.avif",
+    "description": "Cargador rápido para vehículos eléctricos...",
+    "price": 900.00
+  },
+  {
+    "id": 37,
+    "name": "Accesorio Controlador Solar",
+    "category": "Accesorios",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Controlador solar PWM...",
+    "price": 115.00
+  },
+  {
+    "id": 39,
+    "name": "Batería Compact AGM",
+    "category": "Baterías",
+    "image": "/assets/fotoBattery.jpg",
+    "description": "Batería AGM compacta 12V...",
+    "price": 260.00
+  },
+  {
+    "id": 40,
+    "name": "Cargador Profesional 80A",
+    "category": "Cargadores",
+    "image": "/assets/fotoBattery2.avif",
+    "description": "Cargador profesional 80A...",
+    "price": 520.00
+  }
+]
